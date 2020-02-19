@@ -80,8 +80,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="InitProject.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mvcTest.cpp" />
+    <ClCompile Include="ObjectFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="mvcTest.h" />
@@ -91,6 +93,10 @@
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="mvcTest.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InitProject.h" />
+    <ClInclude Include="ObjectFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

@@ -1,8 +1,9 @@
-#pragma once
+﻿#pragma once
 
 #include <QtWidgets/QMainWindow>
 #include "ui_mvcTest.h"
-
+#include<iostream>
+using namespace std;
 class mvcTest : public QMainWindow
 {
 	Q_OBJECT

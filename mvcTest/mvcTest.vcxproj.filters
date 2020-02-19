@@ -41,6 +41,12 @@
     <Filter Include="Source Files\view">
       <UniqueIdentifier>{e78c4c51-58f0-4d91-bef2-c81dbb955e1f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\dabaicai">
+      <UniqueIdentifier>{aa8e3539-d6c3-42fc-b8c8-a73fe4a10f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dabaicai">
+      <UniqueIdentifier>{891f4de8-cad5-46be-aaa7-1c732817176e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -48,6 +54,12 @@
     </ClCompile>
     <ClCompile Include="mvcTest.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Source Files\dabaicai</Filter>
+    </ClCompile>
+    <ClCompile Include="InitProject.cpp">
+      <Filter>Source Files\dabaicai</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,5 +76,13 @@
     <QtRcc Include="mvcTest.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Header Files\dabaicai</Filter>
+    </ClInclude>
+    <ClInclude Include="InitProject.h">
+      <Filter>Header Files\dabaicai</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
